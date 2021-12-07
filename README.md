@@ -17,11 +17,6 @@ YOLO Bot - An algorithmic trading bot
     * Neural Networks: https://scikit-learn.org/stable/modules/neural_networks_supervised.html
 * Backtest the algorithm through the previous 4 years, reduce if data load is too great.  
 * Analyze the profitability of the trading algorithm through visualizations.  
-  
-Optional: Add an api that allows taking action through a paper trading platform (alpaca).  
-
-
-Breakadown of code components
 
 ## Data Source
  
@@ -36,3 +31,15 @@ Breakadown of code components
 |cvdd	| rpv |	balanced_price |	investor_capitalization |
 
 Information about these metrics can be found at the following site: [Glassnode Academy](https://academy.glassnode.com/)
+
+## Installation
+
+To clone the repository use the following line of code:
+
+    git clone https://github.com/ZrowGz/trading-bot.git
+To use the code the required libraries will need to be installed (unless using Google Colab). This can be installed by running the following line of code:
+
+    pip install -r ./requirements.txt
+
+**An API Key from Glassnode is required for pulling data. [How to get an API Key](https://docs.glassnode.com/basic-api/api-key)** <br>
+**If wanting to run the code on MacBook an M1 chip, [Google Colab](https://research.google.com/colaboratory/) will need to be used**
