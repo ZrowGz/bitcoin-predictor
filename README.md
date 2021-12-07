@@ -22,3 +22,17 @@ Optional: Add an api that allows taking action through a paper trading platform 
 
 
 Breakadown of code components
+
+## Data Source
+ 
+ For our data source we used data from [Glassnode](https://studio.glassnode.com/metrics?a=BTC&m=addresses.ActiveCount). Running the code in the GLASSNODEPULL.ipynb file will export the data into a csv file.
+ The 16 metrics we used for our models were:
+ 
+|   |  | |  |
+| ------------- | ------------- | ------------ | ------------- |
+| price  | a-sopr  | puell_multiple  | exchange_netflow  |
+| difficulty_compression_band	|mvrv_z_score | nonzero_balance_addresses |	%_utxo_in_profit |
+| nvt |	nupl | stablecoin_supply |	rhodl |
+|cvdd	| rpv |	balanced_price |	investor_capitalization |
+
+Information about these metrics can be found at the following site: [Glassnode Academy](https://academy.glassnode.com/)
