@@ -1,5 +1,3 @@
-YOLO Bot - An algorithmic trading bot
-
 ## Project Proposal
 
 Analyze Bitcoin data from Glassnode API to create Buy or Sell signal.
@@ -35,3 +33,16 @@ To use the code the required libraries will need to be installed (unless using G
 
 **An API Key from Glassnode is required for pulling data. [How to get an API Key](https://docs.glassnode.com/basic-api/api-key)** <br>
 **If wanting to run the code on MacBook an M1 chip, [Google Colab](https://research.google.com/colaboratory/) will need to be used**
+
+
+## Requirements
+- python >3.7
+- pandas>=0.23.0
+- hvplot
+- pathlib
+- numpy
+- matplotlib
+- sklearn
+- tensorflow
+- json
+- requests
